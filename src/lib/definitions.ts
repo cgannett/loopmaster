@@ -1235,7 +1235,7 @@ export const extra: [string, Definition][] = [
   ['snap', { type: 'function', name: 'snap', category: 'math', description: ['Snap x to nearest multiple of y.'],
     parameters: [{ name: 'x', description: ['Value.'] }, { name: 'y', description: ['Grid size.'] }] }],
   ['step', { type: 'function', name: 'step', category: 'math', description: ['0 if x < edge else 1.'],
-    parameters: [{ name: 'edge', description: ['Threshold.'] }, { name: 'x', description: ['Value.'] }] }],
+    parameters: [{ name: 'x', description: ['Value.'] }, { name: 'edge', description: ['Threshold.'] }] }],
   ['safediv', { type: 'function', name: 'safediv', category: 'math', description: ['Division; 0 if y is 0.'],
     parameters: [{ name: 'x', description: ['Numerator.'] }, { name: 'y', description: ['Denominator.'] }] }],
   ['swing', { type: 'function', name: 'swing', category: 'math', description: ['Swing amount.'],
